@@ -450,8 +450,8 @@ box-sizing: border-box;
 }
 .btn:hover,
 .btn:focus {
-  background: var(--accent-color);
-  color: var(--secondary-color)
+  background: #2196F3;
+  color: rgba(255, 255, 255, 1);
   cursor: pointer;
 }
 .portfolio-name-text {
