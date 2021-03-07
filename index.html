@@ -22,7 +22,7 @@
 <body>
  <!--Шапка-->
     <header class="header">
-        <div class="container">
+        <div class="container-header">
             <nav class="navigation">
                 <ul class="navigation-list list">
                     <li><a class="navigation-logo link" href=""> <span class="blueWeb">Web</span> <span class="Studio">Studio</span></a></li>
@@ -76,59 +76,70 @@
                 </ul>
             </div> 
         </section>
+
         <!--Чем мы занимаемся-->
-        <section class="study-section">
-            <div class="container">
-                    <h3 class="study">Чем мы занимаемся</h3>
-                <ul class="list">
-                    <li class="box">
-                        <img src="./img/box1.svg" alt="computer" width="370" />
-                    </li>
-                    <li class="box">
-                        <img src="./img/box2.svg" alt="mobile" width="370" />
-                    </li>
-                    <li class="box">
-                        <img src="./img/box3.svg" alt="the tablet" width="370" />
-                    </li>
-                </ul>
+        <section class="study-section container">
+            <div class="">
+                <h2 class="study">Чем мы занимаемся</h2>
+                <p class="study-img">
+                    <img class="study-section-img" src="./img/box1.svg" alt="computer" width="370" />
+                    <img class="study-section-img" src="./img/box2.svg" alt="mobile" width="370" />
+                    <img class="study-section-img" src="./img/box3.svg" alt="the tablet" width="370" />
+                </p>
             </div>
-            
         </section>
        
-        
         <!--Наша команда-->
         <section class="team-section">
             <div class="container">
-                <h4 class="study-team">Наша команда</h4>
+                    <h4 class="study-team">Наша команда</h4>
                 <ul class="team-list list">
                     <li class="team">
-                        <a class="team-link link" href="">
-                            <img src="./img/ИгорьДемьяненко.jpg" alt="Product Designer" width="270" />
-                            <h3 class="name link">Игорь Демьяненко</h3>
-                            <p class="suptitle-text">Product Designer</p>
-                        </a>
-                
+                        <div class="card-team">
+                            <a class="team-link link" href="">
+                                <img src="./img/ИгорьДемьяненко.jpg" alt="Product Designer" width="270" />
+                                <div class="name-subtitle">
+                                    <h3 class="name link">Игорь Демьяненко</h3>
+                                    <p class="subtitle-text">Product Designer</p>
+                                </div>
+                            </a>
+                        </div>
                     </li>
+
                     <li class="team">
-                        <a class="team-link link" href="">
-                            <img src="./img/ОльгаРепина.jpg" alt="Frontend Developer" width="270" />
-                            <h3 class="name link">Ольга Репина</h3>
-                            <p class="suptitle-text">Frontend Developer</p>
-                        </a>
+                        <div class="card-team">
+                            <a class="team-link link" href="">
+                                <img src="./img/ОльгаРепина.jpg" alt="Frontend Developer" width="270" />
+                                <div class="name-subtitle">
+                                    <h3 class="name link">Ольга Репина</h3>
+                                    <p class="subtitle-text">Frontend Developer</p>
+                                </div>
+                            </a>
+                        </div>
                     </li>
+
                     <li class="team">
-                        <a class="team-link link" href="">
-                            <img src="./img/НиколайТарасов.jpg" alt="Marketing" width="270" />
-                            <h3 class="name link">Николай Тарасов</h3>
-                            <p class="suptitle-text">Marketing</p>
-                        </a>
+                        <div class="card-team">
+                            <a class="team-link link" href="">
+                                <img src="./img/НиколайТарасов.jpg" alt="Marketing" width="270" />
+                                <div class="name-subtitle">
+                                    <h3 class="name link">Николай Тарасов</h3>
+                                    <p class="subtitle-text">Marketing</p>
+                                </div>
+                            </a>
+                        </div>
                     </li>
+
                     <li class="team">
-                        <a class="team-link link" href="">
-                            <img src="./img/МихаилЕрмаков.jpg" alt="UI Designer" width="270" />
-                            <h3 class="name link">Михаил Ермаков</h3>
-                            <p class="suptitle-text">UI Designer</p>
-                        </a>
+                        <div class="card-team">
+                            <a class="team-link link" href="">
+                                <img src="./img/МихаилЕрмаков.jpg" alt="UI Designer" width="270" />
+                                <div class="name-subtitle">
+                                    <h3 class="name link">Михаил Ермаков</h3>
+                                    <p class="subtitle-text">UI Designer</p>
+                                </div>
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </div>
