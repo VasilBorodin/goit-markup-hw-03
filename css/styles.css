@@ -2,6 +2,9 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --first-color: #757575;
+  --secondary-color: #ffffff;
+  
 }
 
 h1,
@@ -54,7 +57,7 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #ffffff;
+  background-color: var(--secondary-color)
   display: flex;
   align-items: center;
 }
@@ -100,7 +103,7 @@ img {
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-color)
 }
 .blueWeb {
   color: var(--accent-color);
@@ -119,7 +122,7 @@ img {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--first-color)
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -134,7 +137,7 @@ img {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--first-color)
 }
 .tel-link:hover,
 .tel-link:focus {
@@ -146,7 +149,7 @@ img {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--first-color)
 }
 .mail-link:hover,
 .mail-link:focus {
@@ -188,7 +191,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-color)
 }
 .hero-modal-btn {
   display: flex;
@@ -249,7 +252,7 @@ img {
   /* or 171% */
   letter-spacing: 0.03em;
   text-transform: none;
-  color: #757575;
+  color: var(--first-color)
 }
 /* ===============END OCCUPATION=============== */
 
@@ -296,7 +299,7 @@ img {
   color: #212121;
 }
 .card-team {
-  background: #ffffff;
+  background:#FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -309,7 +312,7 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--first-color)
 }
 .name {
   font-family: "Roboto", sans-serif;
@@ -366,7 +369,7 @@ img {
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-color)
 }
 .navigation-address-link:hover,
 .navigation-address-link:focus {
@@ -386,7 +389,7 @@ img {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--first-color)
 }
 .navigation-link-nav:hover,
 .navigation-link-nav:focus {
@@ -399,7 +402,7 @@ img {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--first-color)
 }
 .tel-link-nav:hover,
 .tel-link-nav:focus {
@@ -428,9 +431,9 @@ img {
   margin-bottom: 24px;
 }
 .poftfolio-card-team {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
 }
 .btn {
   min-width: 73px;
@@ -443,11 +446,12 @@ img {
   line-height: 1, 62;
   background: #f5f4fa;
   border-radius: 4px;
+  border: 1px solid #eeeeee;
 }
 .btn:hover,
 .btn:focus {
   background: var(--accent-color);
-  color: #ffffff;
+  color: var(--secondary-color)
   cursor: pointer;
 }
 .portfolio-name-text {
@@ -471,6 +475,6 @@ img {
   font-size: 16px;
   line-height: 1, 87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--first-color)
 }
 /* ===============END PORTFOLIO=============== */
